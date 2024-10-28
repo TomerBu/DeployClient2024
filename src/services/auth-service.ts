@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = import.meta.env.VITE_BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL + "/auth";
 //const baseUrl = "https://localhost:7037/api/auth";
 
 const register = (email: string, username: string, password: string) =>
